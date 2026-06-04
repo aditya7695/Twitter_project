@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+<body>
+        <div class="mt-10 mx-[35%] w-[450px] h-[476px]">
+            <div class="w-[50px] h-[41px] bg-[url(./assets/twitter-logo.png)] bg-cover"></div>
+            <div class="mt-7 ml-2 text-4xl font-bold">
+                <p>Log in to Twitter</p>
+            </div>
+            <div class="mt-7 p-5 w-[450px] h-[70px] border border-[#E4EAED] rounded-xl">
+                <form action="submit">
+                    <input type="text" 
+                    placeholder="phone number,email address" 
+                    class="h-full w-full text-xl focus:outline-none">
+                </form>
+            </div>
+            <div class="mt-4 p-5 w-[450px] h-[70px] border border-[#E4EAED] rounded-xl">
+                <form action="submit">
+                    <input type="password" 
+                    placeholder="Enter Password" 
+                    class="h-full w-full text-xl focus:outline-none">
+                </form>
+            </div>
+            <div class="mt-7 p-5 w-[450px] h-[70px] rounded-[76px] bg-[#1DA1F2] flex justify-center">
+                <form action="./index.html">
+                     <button class="font-bold text-white text-xl" >Log in</button>
+                </form>
+            </div>
+            <div class="flex justify-between items-center mt-10">
+                <div>
+                    <a href="./index.html" class="text-blue-500" >Forgot Password?</a>
+                </div>
+                <div>
+                    <a href="./index.html" class="text-blue-500">Sign up to twitter?</a>
+                </div>
+            </div>
+        </div>
+</body>
+</html>
